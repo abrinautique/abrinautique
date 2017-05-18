@@ -14,7 +14,6 @@ nav {
 
 #footer {
     text-align: center;
-    border-top: 1px solid #3c8dd4;
 }
 
 .nav-item {
@@ -38,6 +37,14 @@ ul {
     cursor: pointer;
 }
 
-#footer {
-    margin: 30px auto;
+article {
+    padding: 30px;
+}
+
+article:nth-child(2n+1) {
+    background-color: #eeeeee;
+}
+
+article:nth-child(2n) {
+    background-color: #dddddd;
 }
