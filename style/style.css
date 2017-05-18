@@ -1,0 +1,47 @@
+body {
+    height: 3000px;
+}
+
+nav {
+    background-color: #3c8dd4;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+#header {
+    background-color: #3c8dd4;
+    color: #ffffff;
+    height: 500px;
+    font-size: 5em;
+    padding-top: 100px;
+}
+
+#footer {
+    text-align: center;
+    border-top: 1px solid #3c8dd4;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.nav li a {
+    color: #ffffff;
+}
+
+.nav li a:hover {
+    background-color: inherit;
+    border-bottom: 2px solid #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#map {
+    cursor: pointer;
+}
+
+#footer {
+    margin: 30px auto;
+}
