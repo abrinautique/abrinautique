@@ -1,0 +1,145 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* common and top level styles */
+#nav img{
+    width:20px;
+    height: 20px;
+}
+
+#nav span {
+    display: none;
+}
+#nav, #nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    background-color: #f1f1f1;
+    border-bottom: 3px solid #60759e;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#nav ul.subs {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    display: none;
+    left: 0;
+    padding: 2%;
+    position: absolute;
+    width: 100%;
+}
+#nav > li {
+    float: left;
+    margin-bottom: -3px;
+    text-align: left;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+#nav li a {
+    display: block;
+    text-decoration: none;
+    -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    white-space: normal;
+}
+#nav > li > a {
+    color: #333333;
+    display: block;
+    font-size: 1.3em;
+    line-height: 49px;
+    padding: 0 15px;
+}
+#nav > li:hover > a, #nav > a:hover {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+    background-color: #60759e;
+    color: #FFFFFF;
+}
+#nav li.active > a {
+   stroke: #FFFFFF;
+    fill: #FFFFFF;
+    background-color: #60759e;
+    color: #FFFFFF;
+}
+
+/* submenu */
+#nav li:hover ul.subs {
+    display: block;
+}
+#nav ul.subs > li {
+    display: inline-block;
+    float: none;
+    padding: 10px 1%;
+    vertical-align: top;
+    width: 33%;
+}
+#nav ul.subs > li a {
+    color: #333333;
+    line-height: 20px;
+}
+#nav ul li a:hover {
+    color: #60759e;
+}
+#nav ul.subs > li > a {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+#nav ul.subs > li li {
+    float: none;
+    padding-left: 8px;
+    -moz-transition: padding 150ms ease-out 0s;
+    -ms-transition: padding 150ms ease-out 0s;
+    -o-transition: padding 150ms ease-out 0s;
+    -webkit-transition: padding 150ms ease-out 0s;
+    transition: padding 150ms ease-out 0s;
+}
+#nav ul.subs > li li:hover {
+    padding-left: 15px;
+}
+
+/* responsive rules */
+@media all and (max-width : 980px) {
+    #nav > li {
+        float: none;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    #nav ul.subs {
+        position: relative;
+        top: 0;
+    }
+    #nav li:hover ul.subs {
+        display: none;
+    }
+    #nav li #s1:target + ul.subs,
+    #nav li #s2:target + ul.subs {
+        display: block;
+    }
+
+    #nav ul.subs > li {
+        display: block;
+        width: auto;
+    }
+}
+/*
+     FILE ARCHIVED ON 12:09:34 Oct 16, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:19:34 May 19, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,55 +1,204 @@
-nav {
-    background-color: #3c8dd4;
-    color: #ffffff;
-    font-size: 1.5em;
+/*
+ * Feuille de style
+ * Abri Nautique
+ */
+
+body {
+    background: #ECEDF8;
+    //background: #f1f1f1;
+    color: #222222;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    //background-image: -webkit-linear-gradient(left, #ffffff 0%, #bbccff 10%, #bbccff 90%, #ffffff 100%);
+    //background-image:    -moz-linear-gradient(left, #ffffff 0%, #bbccff 10%, #bbccff 90%, #ffffff 100%);
+    //background-image:     -ms-linear-gradient(left, #ffffff 0%, #bbccff 10%, #bbccff 90%, #ffffff 100%);
+    //background-image:      -o-linear-gradient(left, #ffffff 0%, #bbccff 10%, #bbccff 90%, #ffffff 100%);
+    //background-image:         linear-gradient(left, #ffffff 0%, #bbccff 10%, #bbccff 90%, #ffffff 100%);
 }
 
-#header {
-    background-color: #3c8dd4;
-    color: #ffffff;
-    height: 500px;
-    font-size: 5em;
-    padding-top: 100px;
-}
-
-#footer {
+footer{
     text-align: center;
 }
 
-.nav-item {
+strong{
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.img{
+    border: none;
+}
+
+#header_img{
+    width:100%;
+}
+
+#container {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: auto;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0 0 10px #222;
+    -webkit-box-shadow: 0 0 10px #222;
+    -moz-box-shadow: 0 0 10px #222;
+}
+
+#content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.clear {
+    width:100%;
+    clear:both;
+}
+
+#home .images img {
+    margin-left:75px;
+    margin-right:75px;
+}
+
+#annexes .images img{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#fishing .small{
+    margin-left:50px;
+    height:350px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+.big{
+    width:60%;
+    /*display:inline-block;*/
+}
+
+.left{
+    float:left;
+}
+
+.small{
+    width:30%;
+    /*display: inline-block;*/
+}
+
+#chandlery .small{
+    margin-left:15px;
+}
+#chandlery img{
+    margin-bottom:15px;
+}
+
+#chandlery ul{
+    margin-bottom:30px;
+}
+
+.right{
+    float:right;
+}
+
+#contact .images, #fishing .images {
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
+
+p.horaires {
+    /*float: left;*/
+    display:inline-block;
+    vertical-align: top;
+}
+
+img#map:hover {
+    cursor: url("../style/images/loupe.cur"), auto;
+}
+
+div.note {
+    background: #ffffff;
+    font-style: italic;
+    font-size: 0.9em;
+    //-webkit-border-radius: 5px;
+    //-moz-border-radius: 5px;
+    //border-radius: 5px;
+    border: 1px solid #f1f1f1;
+}
+
+div.note .close {
+    background: #ffffff;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    padding: 2px 4px;
+    border: 1px solid #60759e;
+    //border: 1px solid #333;
+    //-webkit-border-radius: 3px;
+    //-moz-border-radius: 3px;
+    //border-radius: 3px;
     cursor: pointer;
 }
 
-.nav li a {
+div.note .close:hover {
+    background: #60759e;
     color: #ffffff;
 }
 
-.nav li a:hover {
-    background-color: inherit;
-    border-bottom: 2px solid #ffffff;
+div.note strong {
+    font-weight: bold;
 }
 
-ul {
+.box{
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+}
+
+.centerImage{
+    display: block;
+    margin: 0 auto;
+}
+
+.centerBlock{
+    display: block;
+    margin: 0 auto;
+}
+
+#brand_list{
+    display: block;
+    background-color: #60759e;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#chandlery ul, #fishing ul{
+    list-style: none;
     list-style-type: none;
 }
 
-#map {
-    cursor: pointer;
-}
+/*
+     FILE ARCHIVED ON 12:14:28 Oct 16, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:19:35 May 19, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
-article {
-    padding: 30px;
-}
-
-section.delimiter {
-    padding: 30px 0;
-    border-bottom: 2px solid #cccccc;
-}
-
-article:nth-child(2n+1) {
-    background-color: #eeeeee;
-}
-
-article:nth-child(2n) {
-    background-color: #dddddd;
-}
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
