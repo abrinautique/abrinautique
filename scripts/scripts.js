@@ -25,7 +25,7 @@ $(document).ready(function() {
       "is_exclusive": true,
       "on_keyup": function() {
         var nextPage = $("#nav").find(".active").first().next().find("a").first();
-        window.location.href = typeof(nextPage.attr("href")) !== "undefined" ? nextPage.attr("href") : "home";
+        window.location.href = typeof(nextPage.attr("href")) !== "undefined" ? nextPage.attr("href") : "/";
       }
     },
     {
