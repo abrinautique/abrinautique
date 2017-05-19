@@ -41,6 +41,11 @@ article {
     padding: 30px;
 }
 
+section.delimiter {
+    padding: 30px 0;
+    border-bottom: 2px solid #cccccc;
+}
+
 article:nth-child(2n+1) {
     background-color: #eeeeee;
 }
