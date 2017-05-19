@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  if (document.cookie.match('keytip=true')) {
+    $('#keyboardTip').remove();
+  }
+
   // Google Map iframe size
   $("a.iframe").fancybox({
     width: 900,
